@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.butt1 {
+				padding: 10px;
+				padding-left: 20px;
+				padding-right: 20px;
+				color: black;
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+				top: 1px;
+				right: 1px;
+				text-align: center;
+			}
+		</style>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+		<link
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<title>QZZO DEMO</title>
+	</head>
+	<body style="padding: 20ch; text-align: center">
+		<h1>Homepage</h1>
+		<img src="{{img}}" /><br />
+		First Name = {{first_name}} <br /><br />
+		Last Name = {{last_name}} <br /><br />Age = {{age}} <br /><br />Unique Id = {{unique_id}}
+		<br /><br />Email Id = {{email_id}}<br /><br />
+		<form action="/">
+			<button class="butt1" type="submit" method="GET">Logout</button>
+		</form>
+	</body>
+</html>
