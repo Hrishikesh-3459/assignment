@@ -1,6 +1,6 @@
-# Qzzo Assignment
+# Assignment
 
-Following is the assignment for the role of Django Development Intern
+Following is the assignment for the role of Web Development Intern
 
 ### Prerequisites
 
