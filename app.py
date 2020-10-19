@@ -29,7 +29,7 @@ def index():
     """
     return render_template("/signup.html")
 
-
+# Signup route
 @app.route('/signup', methods=["GET", "POST"])
 def signup():
     """
@@ -87,7 +87,7 @@ def signup():
     else:
         return render_template("signup.html")
 
-
+# Login Route
 @app.route('/login', methods=["GET", "POST"])
 def login():
     """
@@ -109,7 +109,7 @@ def login():
     else:
         return render_template("login.html")
 
-
+# Logout route
 @app.route("/logout")
 def logout():
     """
